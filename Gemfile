@@ -5,6 +5,7 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+# Add gems for SQLite3, PostgreSQL and MySQL (so we can swap databases easily)
 gem 'sqlite3'
 gem 'pg'
 gem 'mysql2'
