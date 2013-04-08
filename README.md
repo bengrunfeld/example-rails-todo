@@ -68,7 +68,7 @@ This tells OpDemand to run web application workers using the command `unicorn_ra
     14:21:06 web.1  | I, [2013-04-06T14:21:06.566155 #84634]  INFO -- : Refreshing Gem list
     14:21:08 web.1  | I, [2013-04-06T14:21:08.173211 #84634]  INFO -- : worker=0 ready
 
-You should be able to access the application locally at <http://localhost:5000>.
+You should now be able to access your application locally at <http://localhost:5000>.
 
 #### 3. Use Environment Variables to manage configuration
 
