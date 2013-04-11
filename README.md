@@ -88,6 +88,7 @@ A typical Rails application stack includes:
 * An **EC2 Load Balancer** used to route traffic to your EC2 instances
 * An **EC2 Instance** used to host the application behind [Nginx](http://wiki.nginx.org/Main)
 * An **RDS Instance** used as the external MySQL database for Rails
+* An **RDS Security Group** used as a virtual firewall for your RDS instance
 * An **EC2 Security Group** used as a virtual firewall inside EC2
 * An **EC2 Key Pair** used for deployment automation
 
